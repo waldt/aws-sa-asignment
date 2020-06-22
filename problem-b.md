@@ -1,13 +1,17 @@
-# Short Term Approach
+# Short Term Solution
 
-- [Short Term Approach](#short-term-approach)
+- [Short Term Solution](#short-term-solution)
   - [Overview](#overview)
   - [Approach](#approach)
     - [Proposed High Level Architecture](#proposed-high-level-architecture)
-    - [Solution Brief](#solution-brief)
+    - [Technical Solution Brief](#technical-solution-brief)
   - [Deployment Best Practice](#deployment-best-practice)
-  - [Design](#design)
+  - [Alignment with AWS Well-Architected Framework](#alignment-with-aws-well-architected-framework)
     - [Operational Excellence](#operational-excellence)
+    - [Security](#security)
+    - [Reliability](#reliability)
+    - [Performance Efficiency](#performance-efficiency)
+    - [Cost Optimization](#cost-optimization)
 
 ## Overview
 

@@ -5,13 +5,14 @@
 
 - [Solution for the Hiring Assignment](#solution-for-the-hiring-assignment)
   - [Overview](#overview)
-  - [Objective](#objective)
-  - [Solution for Objective a](#solution-for-objective-a)
+  - [Problems](#problems)
+  - [Solution for Peoblem a](#solution-for-peoblem-a)
     - [Problem - 1](#problem---1)
     - [Problem - 2](#problem---2)
     - [Problem - 3](#problem---3)
     - [Problem - 4](#problem---4)
     - [Summary](#summary)
+  - [Solution for Problem b](#solution-for-problem-b)
 
 ## Overview
 
@@ -19,9 +20,9 @@ This document describes the solution to the problem statement specified in the [
 
 Customer has provided a [cloudformation template](./template-src/AWS-SA-CloudFormation-v20190724.yaml) for the configuration they created with their current level of AWS Knowledge. Configuration is faulty and the website is not loading.
 
-## Objective
+## Problems
 
-Requirement is broken down to three deliverables:
+Requirement is broken down to three problems:
 
 a) Troubleshoot the implementation by doing the minimum amount of work required to make the web site operational. Your customer expects detailed written troubleshooting instructions or scripts for the in-house team.
 
@@ -29,7 +30,7 @@ b) Propose short term changes you could help them implement to improve the avail
 
 c) Optionally, propose high level alternative solution(s) for the longer term as their web application becomes more successful.
 
-## Approach for Objective a
+## Solution for Peoblem a
 
 a) Troubleshooting steps executed for the current proof of concept:
 
@@ -151,8 +152,8 @@ SASGELBINGRESS:
 
 Final cloudformation template with above resolutions can be found [here](./template-fixed/AWS-SA-CloudFormation-v20190724.yaml).
 
-## Approach for Objective b
+## Solution for Problem b
 
 Proposal for short term changes to help the customer improve the availability, security, reliability, cost and performance before the project goes into production can be find in a separate document below.
 
-[Short Term Approach for Production Readiness](./objective-b.md)
+[Short Term Solution](./problem-b.md)
